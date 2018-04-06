@@ -1,0 +1,147 @@
+/*Global Banner---------------------------------*/
+
+html {
+    background-color: rgba(70,73,75,0.1);
+    min-width: 1280px;
+    min-height: 720px;
+}
+
+.logo {
+    min-width: 75px;
+    max-height: 75px;
+}
+
+body {
+    margin: auto;
+}
+
+#banner {
+    background-color: #46494B;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -16px; 
+    
+}
+
+#bannercontents {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 3%;
+}
+
+#bannercontents ul {
+    list-style-type: none;
+    display: inline;
+    display: block;
+}
+
+#bannercontents ul li {
+    display: block;
+    display: inline;
+    padding-top: 60px;
+}
+
+#bannercontents img {
+    display: block;
+    display: inline;
+    
+    width: 400px;
+    padding-top: 15px;
+    
+    
+}
+
+#bannercontents h1 {
+    display: inline;
+    display: inline;
+    color: white;
+    float: right;
+    padding-right: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+   
+}
+
+/*Navigation---------------------------------------*/
+
+#navbar {
+    background-color: slategray;
+    margin-top: -17px;
+    padding: 3%;
+        
+}
+
+#navbarcontents {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5px;
+}
+
+#navbarcontents ul {
+    list-style-type: none;
+    display: block;
+    display: inline;
+    
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#navbarcontents ul li {
+    display: block;
+    display: inline;
+    padding: 10px;
+    color: white;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: coral;
+    
+}
+
+/*Dynamic Content Styling*/
+
+#results ul {
+    list-style-type: none;
+}
+
+#movieObj {
+   padding-left: 15%;
+    width: 80%;
+}
+
+#movieObj div {
+    width: 250px;
+    height: 375px;
+    outline: 1px solid;
+    float: left;
+    margin: 2%;
+    margin-top: 150px;    
+}
+
+#movieObj div img {
+    width: 250px;
+}
+
+#Content p {
+    text-align: center;
+    margin-top: 390px;
+    margin-bottom: 50px;
+    
+    font-family: 'Fira Sans', sans-serif;
+    font-style: 200;
+    font-size: 28px;
+}

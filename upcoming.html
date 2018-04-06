@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Cinelogue: Coming Soon</title>
+    <meta name="Cinelogue Cinema" content="New Release Movie's">
+    <meta name="Cinelogue Box Office Favourites" content="Hottest Movie Releases">
+
+    <!--Stylesheet and JQuery Library referencing------------------------------------------------------>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' media='screen and (min-width: 400px) and (max-width: 1300px)' href='css/mainMob.css' />
+    <link rel="stylesheet" href="css/nowshowing.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navigation Menu-------------------------------------------------------------------------------->
+    <div id="banner">
+        <div id="bannercontents">
+            <ul>
+                <li><a href="index.html"><img class="logo" src="img/logo.png"></a></li>
+                <li><h1>Coming Soon to Box Office</h1></li>
+            </ul>
+        </div>
+    </div>
+    <div id="navbar">
+        <div id="navbarcontents">
+            <ul>
+                <li><a href="index.html">Box Office</a></li>
+                <li>|</li>
+                <li><a href="upcoming.html"><b>Coming Soon</b></a></li>
+                <li>|</li>
+                <li><a href="rated.html">Top Rated</a></li>
+                <li>|</li>
+                <li><a href="browse.html">Browse</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!--Dynamic HTML Content Div's-------------------------------------------------------------------->
+    <div id="newreleaseWrapper" style="padding-top: 18px;">
+        <ul id="resultsWrapper">  
+        </ul>
+        </div>
+    
+    <!--Footer---------------------------------------------------------------------------------------->
+        <div id="footer">
+            <p>Content and Images courtesy of The Movie Database (TMDb) API's.</p>
+            <p>This project is strictly NON-FOR-PROFIT.</p> 
+            
+            <img src="img/tmdb.png" style="width: 100px; padding: 1%;">
+            <p>Disclaimer: TMDb API integration is used to retrieve and display cover artwork images, <br>now showing statistics, upcoming release statistics and associated data for "New Release" and "Upcoming". </p>
+        
+        <p>"Top rated Films" and "Browse Library" use this API for retrieving poster artwork only.</p>
+        </div>
+    
+  <!--JavaScript------------------------------------------------------------------------------------------------------------------------->    
+    
+    <script src="js/upcoming.js"></script>
+    
+</body>
+</html>
